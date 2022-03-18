@@ -1,0 +1,75 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "resource1",
+      "path": "RoadSafety.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "Country",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Year",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "Area",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "Population",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "GDP_per_capita",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "Population_Density",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "Vehicle_Ownership",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "Total_Road_Deaths",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "Road_Deaths_Per_Million_Inhabitant ",
+            "type": "integer",
+            "format": "default"
+          }
+        ]
+      }
+    }
+  ],
+  "name": "European Union Road Safety Facts and Figures",
+  "title": "Code Challenge web scrapper",
+  "description": "This contains data on the transportation safety among road users in Europe",
+  "contributors": [
+    {
+      "title": "Daniel Thompson",
+      "role": "author"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "CC0-1.0",
+      "title": "CC0 1.0",
+      "path": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+  ]
+}
